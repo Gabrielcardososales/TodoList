@@ -28,3 +28,12 @@ cd TodoList
 
 # Execute (requer Maven instalado)
 mvn spring-boot:run
+
+
+
+GET    /api/todos           Lista todas tarefas
+POST   /api/todos           Cria nova tarefa
+GET    /api/todos/{id}      Busca tarefa por ID
+PUT    /api/todos/{id}      Atualiza tarefa
+DELETE /api/todos/{id}      Remove tarefa
+PATCH  /api/todos/{id}/complete  Marca como concluída
