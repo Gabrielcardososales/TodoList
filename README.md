@@ -13,7 +13,18 @@
 | **Banco**       | H2 Database (em memória)             |
 | **Documentação**| Swagger UI                           |
 | **Build**       | Maven                                |
-| **Produtividade**| Lombok, ModelMapper                |
+| **Produtividade**| Lombok, ModelMapper                 |
+
+---
+
+## ✨ Práticas Adotadas
+
+- **SOLID, DRY, YAGNI, KISS**  
+- **API REST**  
+- **Consultas com Spring Data JPA**  
+- **Injeção de Dependências**  
+- **Tratamento de respostas de erro**  
+- **Geração automática do Swagger com a OpenAPI 3**  
 
 ---
 
